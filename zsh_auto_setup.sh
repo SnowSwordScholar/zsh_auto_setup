@@ -9,7 +9,7 @@
 # This project will also help you to install zsh-syntax-highlighting (https://github.com/zsh-users/zsh-syntax-highlighting),
 # which is available under a license similar to the BSD-3-Clause License. Please refer to the relevant documentation for specific terms.
 echo_cyan() {
-  printf '\033[1;36m%b\033[0m\n' "$@"
+  printf '\033[1;36m%s\033[0m\n' "$@"
 }
 
 echo_cyan "安装zsh | Install ZSH"
