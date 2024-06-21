@@ -1,5 +1,6 @@
 # ZSH Auto Setup
-ZSH 一键安装脚本，将在 `Debian` / `Ubuntu` 系统上自动安装 ZSH 、 OH My ZSH ，并配置插件： git zsh-autosuggestions zsh-syntax-highlighting z  
+ZSH 一键安装脚本，将在 `Debian` / `Ubuntu` 系统上自动安装 ZSH 、 OH My ZSH ，并配置插件： git zsh-autosuggestions zsh-syntax-highlighting z    
+  
 One-click installation script for ZSH, which automatically installs ZSH, OH My ZSH on `Debian` / `Ubuntu` systems, and configures plugins: git, zsh-autosuggestions, zsh-syntax-highlighting, z.
 ## 使用方式 | Usage Method
 `bash <(curl -s -S -L https://raw.githubusercontent.com/SnowSwordScholar/zsh_auto_setup/main/zsh_auto_setup.sh)`
@@ -14,8 +15,9 @@ Oh My Zsh 的贡献者名单可以在 https://github.com/ohmyzsh/ohmyzsh/contrib
 
 该项目还将帮助您安装 zsh-syntax-highlighting（https://github.com/zsh-users/zsh-syntax-highlighting），
 它在类似 BSD-3-Clause 许可证下可用。具体条款请参阅相关文档。
-
-
+  
+  
+    
 This project will help you to install Oh My Zsh (https://github.com/ohmyzsh/ohmyzsh)  and zsh-autosuggestions (https://github.com/zsh-users/zsh-autosuggestions). 
 Both of these projects are available under the MIT License.
 
