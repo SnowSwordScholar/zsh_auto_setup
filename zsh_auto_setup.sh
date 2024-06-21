@@ -17,7 +17,7 @@ sudo apt install zsh curl git -y
 
 
 echo_cyan "下载 Oh My ZSH 脚本并让他不急"
-echo_cyan "Download the Oh My ZSH script and don't let it worry."
+echo_cyan "  | Download the Oh My ZSH script and don't let it worry."
 curl -fsSL -o omy_zsh_install.sh https://raw.github.com/ohmyzsh/ohmyzsh/master/tools/install.sh
 sed -i '/exec zsh -l/d' omy_zsh_install.sh
 chmod +x omy_zsh_install.sh
