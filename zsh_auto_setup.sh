@@ -1,6 +1,4 @@
 #! /bin/sh
-
-
 # Copyright (c) 2024 SnowSwordScholar (https://github.com/SnowSwordScholar/zsh_auto_setup)
 # 
 # This project will help you to install Oh My Zsh (https://github.com/ohmyzsh/ohmyzsh) and zsh-autosuggestions (https://github.com/zsh-users/zsh-autosuggestions).
@@ -10,7 +8,6 @@
 #
 # This project will also help you to install zsh-syntax-highlighting (https://github.com/zsh-users/zsh-syntax-highlighting),
 # which is available under a license similar to the BSD-3-Clause License. Please refer to the relevant documentation for specific terms.
-
 echo_cyan() {
   printf '\033[1;36m%b\033[0m\n' "$@"
 }
