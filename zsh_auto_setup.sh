@@ -26,6 +26,7 @@ echo_cyan "安装 Oh My ZSH | Install Oh My ZSH"
 sh omy_zsh_install.sh
 # . ./omy_zsh_install.sh
 
+rm omy_zsh_install.sh
 
 echo_cyan "安装插件 | Setup Plugins"
 git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
