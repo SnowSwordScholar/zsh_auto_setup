@@ -9,7 +9,6 @@
 #
 # This project will also help you to install zsh-syntax-highlighting (https://github.com/zsh-users/zsh-syntax-highlighting),
 # which is available under a license similar to the BSD-3-Clause License. Please refer to the relevant documentation for specific terms.
-
 usage() {
     echo "用法 | Usage: $0 [选项 | options]"
     echo "选项 | Options:"
