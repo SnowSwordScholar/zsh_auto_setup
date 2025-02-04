@@ -1,5 +1,4 @@
 #! /bin/sh
-
 # Copyright (c) 2024 SnowSwordScholar (https://github.com/SnowSwordScholar/zsh_auto_setup)
 # 
 # 此项目将帮助您安装 Oh My Zsh (https://github.com/ohmyzsh/ohmyzsh) 和 zsh-autosuggestions (https://github.com/zsh-users/zsh-autosuggestions)
