@@ -5,6 +5,22 @@ One-click installation script for ZSH, which automatically installs ZSH, Oh My Z
 ## 使用方式 | Usage Method
 `sh <(curl -s -S -L https://raw.githubusercontent.com/SnowSwordScholar/zsh_auto_setup/main/zsh_auto_setup.sh)`
 
+### 命令行参数：
+```
+# 交互式安装
+./zsh_auto_setup.sh
+
+# 直接设置代理
+./zsh_auto_setup.sh --proxy http://proxy.example.com:8080
+
+# 跳过代理设置
+./zsh_auto_setup.sh --no-proxy
+
+# 显示帮助
+./zsh_auto_setup.sh --help
+```
+  
+  
 ![图片](https://github.com/SnowSwordScholar/zsh_auto_setup/assets/73566969/a2f6950f-086e-486e-8bd4-69add871591a)
 
 # 声明 | Declaration
