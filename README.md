@@ -4,12 +4,12 @@ ZSH 一键安装脚本，将在 `Debian` / `Ubuntu` 系统上自动安装 ZSH �
 One-click installation script for ZSH, which automatically installs ZSH, Oh My Zsh on `Debian` / `Ubuntu` systems, and configures plugins: git, zsh-autosuggestions, zsh-syntax-highlighting, z.
 ## 使用方式 | Usage Method
 ### 使用 curl
-`curl -sSfL https://raw.githubusercontent.com/SnowSwordScholar/zsh_auto_setup/main/zsh_auto_setup.sh | sh -s -- "$@"`  
+`sh <(curl -s -S -L https://raw.githubusercontent.com/SnowSwordScholar/zsh_auto_setup/main/zsh_auto_setup.sh)`  
 ### 使用 wget
-`wget -qO- --no-check-certificate https://raw.githubusercontent.com/SnowSwordScholar/zsh_auto_setup/main/zsh_auto_setup.sh | sh -s -- "$@"`  
+`sh <(wget -qO-  https://raw.githubusercontent.com/SnowSwordScholar/zsh_auto_setup/main/zsh_auto_setup.sh)`
 
 ### 命令行参数：
-`wget -qO- --no-check-certificate https://raw.githubusercontent.com/SnowSwordScholar/zsh_auto_setup/main/zsh_auto_setup.sh | sh -s -- --proxy http://your.proxy:8080 `
+`sh <(wget -qO-  https://raw.githubusercontent.com/SnowSwordScholar/zsh_auto_setup/main/zsh_auto_setup.sh) --proxy http://your.proxy:8080`
 ```
 # 交互式安装
 ./zsh_auto_setup.sh
